@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_action_perfil2"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/ic_action_chatbot2"
+            android:title="Chatbot" />
+    </group>
+
+    <item android:title="Secundario">
+        <menu>
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@drawable/ic_action_compartir2"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_cerrarsesion"
+                android:icon="@drawable/ic_action_cerrar_sesion2"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>
